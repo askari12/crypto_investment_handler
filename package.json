@@ -1,0 +1,32 @@
+{
+  "name": "crypto_investment_handler",
+  "version": "1.0.0",
+  "description": "A handler for crypto investment data",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node .",
+    "test": "test"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "chalk-animation": "^1.6.0",
+    "figlet": "^1.5.2",
+    "gradient-string": "^2.0.0",
+    "inquirer": "^8.2.0",
+    "nanospinner": "^1.0.0"
+  },
+  "bin": {
+    "crypto_investment_handler": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/askari12/crypto_investment_handler.git"
+  },
+  "author": "Askari Iqbal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/askari12/crypto_investment_handler/issues"
+  },
+  "homepage": "https://github.com/askari12/crypto_investment_handler#readme"
+}

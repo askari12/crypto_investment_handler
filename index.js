@@ -1,5 +1,9 @@
 import { sleep } from './src/sleepModule.js';
+import { handleError } from './src/errorHandlerModule.js';
 
-console.log("Hello")
-await sleep()
-console.log("Bye")
+try {
+  throw new Error ("LOL")
+}
+catch(e) {
+  handleError(e)
+}

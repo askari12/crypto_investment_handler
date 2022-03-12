@@ -1,10 +1,8 @@
-import { sleep } from './src/sleepModule.js';
-import { handleError } from './src/errorHandlerModule.js';
-import { logger } from './src/loggerModule.js';
+import { handleError } from './src/helpers/errorHandlerModule.js';
+import { welcomeScreeen } from './src/UserFlow/welcomeScreen.js';
 
 try {
-  logger('Starting...');
-  throw new Error ("LOL")
+  await welcomeScreeen();
 }
 catch(e) {
   handleError(e)
